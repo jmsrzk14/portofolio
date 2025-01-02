@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, } from 'lucide-react';
 import { Container } from './ui/Container';
 import { Section } from './ui/Section';
 
@@ -9,8 +9,43 @@ const Contact = () => {
       <Container>
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-100">Let's Connect</h2>
         
-        <div className="grid md:grid-cols-2 gap-12">
-          <div>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-12 sm:mt-[3em]">
+
+          <div className="space-y-4">
+            <div className="flex flex-col md:flex-column justify-between items-center">
+              <div className="mb-6 md:mb-0">
+                <h3 className="text-2xl font-bold text-gray-100">Portfolio</h3>
+                <p className="text-gray-400 mt-2">Connect with me and feel free to reach out</p>
+              </div>
+              
+              <div className="flex space-x-6 mt-[7em]">
+                <a 
+                  href="https://github.com"
+                  className="hover:text-white hover:bg-black hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Github size={24} />
+                </a>
+                <a 
+                  href="https://linkedin.com"
+                  className="hover:text-white hover:bg-blue-700 hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin size={24} />
+                </a>
+                <a 
+                  href="mailto:jmsrizky@gmail.com"
+                  className="hover:text-white hover:bg-red-500 hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
+                >
+                  <Mail size={24} />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:ml-[10em] sm:ml-[10em] ml-[2em]">
             <h3 className="text-xl font-semibold mb-6 text-gray-100">Contact Information</h3>
             
             <div className="space-y-4">
@@ -39,51 +74,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          
-          <form className="space-y-4">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
-                Name
-              </label>
-              <input
-                type="text"
-                id="name"
-                className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-100"
-                placeholder="Your name"
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
-                Email
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-100"
-                placeholder="your@email.com"
-              />
-            </div>
-            
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
-                Message
-              </label>
-              <textarea
-                id="message"
-                rows={4}
-                className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-100"
-                placeholder="Your message"
-              />
-            </div>
-            
-            <button
-              type="submit"
-              className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              Send Message
-            </button>
-          </form>
+
         </div>
       </Container>
     </Section>
