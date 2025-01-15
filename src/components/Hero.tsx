@@ -32,7 +32,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="/images/resume.pdf"
+              href="/images/Resume.pdf"
               download
               className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
@@ -49,7 +49,7 @@ const Hero = () => {
         <div className="flex justify-center md:justify-end">
           <div className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] animate-float">
             <img 
-              src="/images/123.png" 
+              src="/images/james.png" 
               alt="Profile" 
               className="w-full h-full rounded-full rainbow-border object-cover"
             />

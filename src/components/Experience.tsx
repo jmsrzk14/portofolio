@@ -23,6 +23,33 @@ const experiences = [
                  'Install the new hardware so it is ready for use',
                  'Manage and analyze financial data at the bank using Microsoft Office'],
     imageUrl: '/images/bpr.png',
+  },
+  {
+    title: 'Deputy head of education division',
+    company: 'HIMATIF Institute Technology Del',
+    period: 'Sep 2024 - Current',
+    description: ['Maintain all hardware and software ready for use before business hours', 
+                 'Install the new hardware so it is ready for use',
+                 'Manage and analyze financial data at the bank using Microsoft Office'],
+    imageUrl: '/images/himatif.jpeg',
+  },
+  {
+    title: 'Member of Training Division',
+    company: 'Love Almamater Program Institute Technology Del',
+    period: 'Aug 2024',
+    description: ['Maintain all hardware and software ready for use before business hours', 
+                 'Install the new hardware so it is ready for use',
+                 'Manage and analyze financial data at the bank using Microsoft Office'],
+    imageUrl: 'https://srgjo27.github.io/my-web-portofolio/static/media/Institut%20Teknologi%20Del.628d1d1ed1695f96ed50.png',
+  },
+  {
+    title: 'Member of KRSBI-B Division',
+    company: 'Del Robotic Club Institute Technology Del',
+    period: 'Jan 2024 - Current',
+    description: ['Maintain all hardware and software ready for use before business hours', 
+                 'Install the new hardware so it is ready for use',
+                 'Manage and analyze financial data at the bank using Microsoft Office'],
+    imageUrl: '/images/DRC.png',
   }
 ];
 
@@ -46,7 +73,7 @@ const Experience = () => {
   return (
     <Section id="experience" className="bg-gray-900">
       <Container>
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">Experience</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">Organization & Work Experience</h2>
 
         <div className="flex flex-col md:flex-row gap-16">
           {/* Tech Logos Section */}
