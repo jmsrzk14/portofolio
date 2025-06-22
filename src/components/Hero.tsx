@@ -17,7 +17,7 @@ const Hero = () => {
           backgroundPosition: 'center',
         }}
       >
-        <div className="absolute inset-0 bg-gray-900/80"></div>
+        <div className="absolute inset-0 bg-gray-950/80"></div>
       </div>
 
       <Container className="relative z-10 grid md:grid-cols-2 gap-8 items-center">
@@ -49,9 +49,9 @@ const Hero = () => {
         <div className="flex justify-center md:justify-end">
           <div className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] animate-float">
             <img 
-              src="/images/james.png" 
+              src="/images/JamesT.png" 
               alt="Profile" 
-              className="w-full h-full rounded-full rainbow-border object-cover"
+              className="w-full h-full rounded-full rainbow-border object-cover blur-[1px] hover:blur-[0.5]"
             />
           </div>
         </div>

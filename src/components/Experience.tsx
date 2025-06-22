@@ -7,6 +7,15 @@ import '../styles/animations.css';
 
 const experiences = [
   {
+    title: 'Web Developer (Internship)',
+    company: 'PT. Winnicode Garuda Teknologi',
+    period: 'Jan 2025 - Current',
+    description: ['Maintain all hardware and software ready for use before business hours', 
+                 'Install the new hardware so it is ready for use',
+                 'Manage and analyze financial data at the bank using Microsoft Office'],
+    imageUrl: '/images/winicode.png',
+  },
+  {
     title: 'Assistant Matriculation Commite',
     company: 'Institute Technology Del',
     period: 'Aug 2024',
@@ -54,7 +63,7 @@ const logos = [
   { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png', label: 'HTML' },
   { src: 'https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo-tumb-150x150.png', label: 'CSS' },
   { src: 'https://www.kenantomfiebukit.site/assets/javascript-BjiGfaT-.png', label: 'JavaScript' },
-  { src: 'https://img.icons8.com/?size=100&id=YrKoPXb4jv9l&format=png&color=000000', label: 'PHP' },
+  { src: '/images/php.png', label: 'PHP' },
   { src: 'https://www.kenantomfiebukit.site/assets/mysql-D1fmG43W.png', label: 'MySQL' },
   { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png', label: 'Laravel' },
   { src: 'https://img.icons8.com/?size=48&id=7AFcZ2zirX6Y&format=png', label: 'Dart' },
@@ -64,6 +73,11 @@ const logos = [
   { src: 'https://img.icons8.com/?size=48&id=20906&format=png', label: 'Git' },
   { src: 'https://img.icons8.com/?size=48&id=62452&format=png', label: 'Firebase' },
   { src: 'https://img.icons8.com/?size=48&id=EzPCiQUqWWEa&format=png', label: 'Bootstrap' },
+  { src: '/images/golang.png', label: 'Golang' },
+  { src: 'https://img.icons8.com/?size=100&id=123603&format=png&color=000000', label: 'React JS' },
+  { src: 'https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000', label: 'TypeScript' },
+  { src: 'https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000', label: 'Node JS' },
+  { src: 'https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000', label: 'Tailwind' },
 ];
 
 const Experience = () => {

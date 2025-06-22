@@ -5,6 +5,22 @@ import { AnimatedCard } from './ui/AnimatedCard';
 
 const projects = [
   {
+    title: 'Sahulos Information System',
+    description: 'Explore deeper into Batak traditional traditions',
+    image: '/images/sahulos.png',
+    technologies: ['React', 'TypeScript', 'JavaScript', 'Tailwind'],
+    githubLink: 'https://github.com/jmsrzk14/sahulos_batak',
+    liveLink: 'https://sahulos.netlify.app'
+  },
+  {
+    title: 'Development of KawalPTNku Information System',
+    description: 'Providing recommendations for entering PTN',
+    image: '/images/KawalPTN.png',
+    technologies: ['React', 'Fiber', 'MySQL', 'Tailwind'],
+    githubLink: 'https://github.com/jmsrzk14/PA2-Kel08',
+    liveLink: 'https://kawalptn.netlify.app'
+  },
+  {
     title: 'HIMATIF Apps',
     description: 'Get to know more about HIMATIF IT DEL',
     image: '/images/himatif apps.png',
@@ -30,12 +46,12 @@ const projects = [
   },
   {
     title: 'HKBP SITOLUAMA Website',
-    description: 'Find out easily about the information available at the HKBP Sitoluama Church',
+    description: 'Find information about HKBP Sitoluama',
     image: '/images/Sitoluama.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     githubLink: 'https://github.com/jmsrzk14/PA1-Kel06',
     liveLink: 'https://example.com'
-  }
+  },
 ];
 
 const Projects = () => {
