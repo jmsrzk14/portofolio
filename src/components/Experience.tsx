@@ -10,9 +10,9 @@ const experiences = [
     title: 'Web Developer (Internship)',
     company: 'PT. Winnicode Garuda Teknologi',
     period: 'Jan 2025 - Current',
-    description: ['Maintain all hardware and software ready for use before business hours', 
-                 'Install the new hardware so it is ready for use',
-                 'Manage and analyze financial data at the bank using Microsoft Office'],
+    description: ['Building a news portal website to make it easier to get information',
+                 'Design the user interface to be easy for users to understand',
+                 'Implementing API for data processing on the backend'],
     imageUrl: '/images/winicode.png',
   },
   {
