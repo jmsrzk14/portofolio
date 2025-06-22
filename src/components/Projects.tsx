@@ -26,7 +26,7 @@ const projects = [
     image: '/images/himatif apps.png',
     technologies: ['Flutter', 'SQLite', 'Dart'],
     githubLink: 'https://github.com',
-    liveLink: 'https://example.com'
+    liveLink: '#'
   },
   {
     title: 'Marudut Tani Shop Website',
@@ -34,7 +34,7 @@ const projects = [
     image: '/images/Marudut Tani Home.png',
     technologies: ['Laravel 9', 'MySQL', 'Bootstrap', 'PHP'],
     githubLink: 'https://github.com/jmsrzk14/PA1-Kel06.git',
-    liveLink: 'https://example.com'
+    liveLink: '#'
   },
   {
     title: 'Monitoring and Analysis System for Number of People',
@@ -42,7 +42,7 @@ const projects = [
     image: '/images/IoT.png',
     technologies: ['Python', 'Laravel 11', 'MySQL', 'Bootstrap'],
     githubLink: 'https://github.com',
-    liveLink: 'https://example.com'
+    liveLink: '#'
   },
   {
     title: 'HKBP SITOLUAMA Website',
@@ -50,7 +50,7 @@ const projects = [
     image: '/images/Sitoluama.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     githubLink: 'https://github.com/jmsrzk14/PA1-Kel06',
-    liveLink: 'https://example.com'
+    liveLink: '#'
   },
 ];
 
