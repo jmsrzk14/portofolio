@@ -16,6 +16,15 @@ const experiences = [
     imageUrl: '/images/winicode.png',
   },
   {
+    title: ' Assistant Lecturer',
+    company: 'Institute Technology Del',
+    period: 'Jan 2025 - Jun 2025',
+    description: ['Assisted 55+ first-year students in discrete mathematics course',
+                  'Accompanying first-year students in discussion sessions, exercises, or practicums',
+                  'Guiding first-year students in understanding basic concepts such as logic, sets, relations, functions, and graphs'],
+    imageUrl: 'https://srgjo27.github.io/my-web-portofolio/static/media/Institut%20Teknologi%20Del.628d1d1ed1695f96ed50.png',
+  },
+  {
     title: 'Assistant Matriculation Commite',
     company: 'Institute Technology Del',
     period: 'Aug 2024',

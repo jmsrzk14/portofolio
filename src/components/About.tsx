@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Palette, Globe } from 'lucide-react';
+import { Code, Palette, Globe, Smartphone, Database, Code2 } from 'lucide-react';
 import { Container } from './ui/Container';
 import { Section } from './ui/Section';
 
@@ -30,9 +30,9 @@ const About = () => {
             
             <div className="space-y-8 mt-8">
               {[
-                { icon: Code, title: 'Web Development', desc: 'Full-stack development with modern technologies' },
-                { icon: Palette, title: 'UI/UX Design', desc: 'Creating beautiful and intuitive interfaces' },
-                { icon: Globe, title: 'Web Solutions', desc: 'End-to-end web application solutions' }
+                { icon: Globe, title: 'Web Development', desc: 'Full-stack development with modern technologies' },
+                { icon: Smartphone, title: 'UI/UX Design', desc: 'Creating beautiful and intuitive interfaces' },
+                { icon: Database, title: 'Web Solutions', desc: 'End-to-end web application solutions' }
               ].map((item, index) => (
                 <div key={index} className="relative flex items-start group transform hover:scale-105 transition-transform duration-300">
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
