@@ -13,7 +13,7 @@ const projects = [
     liveLink: 'https://sahulos.netlify.app'
   },
   {
-    title: 'Development of KawalPTNku Information System',
+    title: 'KawalPTNku Information System',
     description: 'Providing recommendations for entering PTN',
     image: '/images/KawalPTN.png',
     technologies: ['React', 'Fiber', 'MySQL', 'Tailwind'],
@@ -37,7 +37,7 @@ const projects = [
     liveLink: '#'
   },
   {
-    title: 'Monitoring and Analysis System for Number of People',
+    title: 'Monitoring Number of People',
     description: 'View and monitor people around you',
     image: '/images/IoT.png',
     technologies: ['Python', 'Laravel 11', 'MySQL', 'Bootstrap'],

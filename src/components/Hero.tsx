@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[500px] lg:h-[500px] animate-float">
+          <div className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[420px] lg:h-[420px] lg:mr-[4em] animate-float">
             <img 
               src="/images/JamesT.png" 
               alt="Profile" 
