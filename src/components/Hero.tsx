@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
 
       <Container className="relative z-10 grid md:grid-cols-2 gap-8 items-center">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl ml-6">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-100 mb-6">
             Hi, I'm <span className="text-blue-500">James Frans Rizky Tambunan</span>
           </h1>
@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[420px] lg:h-[420px] lg:mr-[4em] animate-float">
+          <div className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[420px] lg:h-[420px] lg:mr-[2em] animate-float">
             <img 
               src="/images/JamesT.png" 
               alt="Profile" 
