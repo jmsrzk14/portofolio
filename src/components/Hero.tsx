@@ -3,6 +3,7 @@ import { Container } from './ui/Container';
 import { Section } from './ui/Section';
 import { AnimatedText } from './AnimatedText';
 import '../styles/animations.css';
+import ProfileCard from './ProfileCard/ProfileCard'
 
 const Hero = () => {
   const words = ["Back End Developer", "Front End Developer", "Mobile Programming"];
@@ -47,11 +48,24 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] md:w-[450px] md:h-[450px] lg:w-[420px] lg:h-[420px] lg:mr-[2em] animate-float">
-            <img 
-              src="/images/JamesT.png" 
-              alt="Profile" 
-              className="w-full h-full rounded-full rainbow-border object-cover blur-[1px] hover:blur-[0.5]"
+          <div className="w-[350px] h-[500px] sm:w-[300px] sm:h-[450px] md:w-[450px] md:h-[450px] lg:w-[350px] lg:h-[530px] lg:mr-[4em] animate-float">
+            <ProfileCard
+              name="James F R Tambunan"
+              title="Software Developer"
+              handle="jmsrzk14"
+              status="Online"
+              contactText="Contact Me"
+              avatarUrl="/images/JamesF.png"
+              iconUrl="https://img.icons8.com/?size=100&id=XLFvWkhcJcr4&format=png&color=000000"
+              showUserInfo={true}
+              enableTilt={true}
+              showBehindGradient={true}
+              onContactClick={() => {
+                const element = document.getElementById('contact');
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
             />
           </div>
         </div>
