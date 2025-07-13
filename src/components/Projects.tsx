@@ -5,6 +5,13 @@ import { AnimatedCard } from './ui/AnimatedCard';
 
 const projects = [
   {
+    title: 'BeritaKu',
+    description: 'Get the latest news easily and reliably',
+    image: '/images/BeritaKu.png',
+    technologies: ['React', 'Golang', 'Laravel', 'Tailwind'],
+    githubLink: 'https://github.com/jmsrzk14/winicode_beritaku',
+  },
+  {
     title: 'Sahulos Information System',
     description: 'Explore deeper into Batak traditional traditions',
     image: '/images/sahulos.png',
@@ -26,7 +33,6 @@ const projects = [
     image: '/images/himatif apps.png',
     technologies: ['Flutter', 'SQLite', 'Dart'],
     githubLink: 'https://github.com',
-    liveLink: '#'
   },
   {
     title: 'Marudut Tani Shop Website',
@@ -34,7 +40,6 @@ const projects = [
     image: '/images/Marudut Tani Home.png',
     technologies: ['Laravel 9', 'MySQL', 'Bootstrap', 'PHP'],
     githubLink: 'https://github.com/jmsrzk14/PA1-Kel06.git',
-    liveLink: '#'
   },
   {
     title: 'Monitoring Number of People',
@@ -42,7 +47,6 @@ const projects = [
     image: '/images/IoT.png',
     technologies: ['Python', 'Laravel 11', 'MySQL', 'Bootstrap'],
     githubLink: 'https://github.com',
-    liveLink: '#'
   },
   {
     title: 'HKBP SITOLUAMA Website',
@@ -50,7 +54,6 @@ const projects = [
     image: '/images/Sitoluama.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     githubLink: 'https://github.com/jmsrzk14/PA1-Kel06',
-    liveLink: '#'
   },
 ];
 

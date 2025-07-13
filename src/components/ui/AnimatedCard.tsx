@@ -59,15 +59,22 @@ export const AnimatedCard: React.FC<AnimatedCardProps> = ({
               <Github size={16} className="mr-1" />
               Code
             </a>
-            <a 
-              href={liveLink}
-              className="flex items-center text-gray-400 hover:text-blue-400 transition-colors text-sm sm:text-base"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <ExternalLink size={16} className="mr-1" />
-              Live Demo
-            </a>
+            {liveLink ? (
+              <a 
+                href={liveLink}
+                className="flex items-center text-gray-400 hover:text-blue-400 transition-colors text-sm sm:text-base"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ExternalLink size={16} className="mr-1" />
+                Live Demo
+              </a>
+            ) : (
+              <span className="flex items-center text-gray-500 cursor-not-allowed text-sm sm:text-base">
+                <ExternalLink size={16} className="mr-1" />
+                Demo tidak tersedia
+              </span>
+            )}
           </div>
         </div>
       </div>
