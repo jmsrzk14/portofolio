@@ -20,16 +20,16 @@ const Contact = () => {
               
               <div className="flex space-x-6 mt-[7em]">
                 <a 
-                  href="https://github.com"
-                  className="hover:text-white hover:bg-black hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
+                  href="https://github.com/jmsrzk14"
+                  className="text-white hover:bg-black hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Github size={24} />
                 </a>
                 <a 
-                  href="https://linkedin.com"
-                  className="hover:text-white hover:bg-blue-700 hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
+                  href="https://linkedin.com/in/james-frans-rizky-tambunan"
+                  className="text-white hover:bg-blue-700 hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -37,7 +37,7 @@ const Contact = () => {
                 </a>
                 <a 
                   href="mailto:jmsrizky@gmail.com"
-                  className="hover:text-white hover:bg-red-500 hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
+                  className="text-white hover:bg-red-500 hover:scale-110 duration-300 transition-colors p-2 rounded-full" 
                 >
                   <Mail size={24} />
                 </a>
