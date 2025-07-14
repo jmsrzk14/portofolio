@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
 
       <Container className="relative z-10 grid md:grid-cols-2 gap-8 items-center">
-        <div className="max-w-3xl ml-6">
+        <div className="max-w-3xl lg:ml-6">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-100 mb-6">
             Hi, I'm <span className="text-blue-500">James Frans Rizky Tambunan</span>
           </h1>
@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <div className="w-[350px] h-[500px] sm:w-[300px] sm:h-[450px] md:w-[450px] md:h-[450px] lg:w-[350px] lg:h-[530px] lg:mr-[4em] animate-float">
+          <div className="w-[250px] h-[400px] sm:w-[300px] sm:h-[450px] md:w-[450px] md:h-[450px] lg:w-[350px] lg:h-[530px] lg:mr-[4em] mt-6 lg:mt-0 animate-float">
             <ProfileCard
               name="James F R Tambunan"
               title="Software Developer"
