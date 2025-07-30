@@ -4,6 +4,7 @@ import { Section } from './ui/Section';
 import { ExperienceCard } from './ExperienceCard';
 import { TechLogo } from './TechLogo';
 import '../styles/animations.css';
+import {motion} from 'framer-motion';
 
 const experiences = [
   {
@@ -93,25 +94,46 @@ const Experience = () => {
   return (
     <Section id="experience" className="bg-gray-900">
       <Container>
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">Organization & Work Experience</h2>
+        <motion.div
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-100">Organization & Work Experience</h2>
+        </motion.div>
 
         <div className="flex flex-col md:flex-row gap-16">
           {/* Tech Logos Section */}
           <div className="flex-1">
-            <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 gap-12 md:mx-12">
-              {logos.map((logo, index) => (
-                <TechLogo key={index} {...logo} />
-              ))}
-            </div>
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            >
+              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-3 gap-12 md:mx-12">
+                {logos.map((logo, index) => (
+                  <TechLogo key={index} {...logo} />
+                ))}
+              </div>
+            </motion.div>
           </div>
 
           {/* Experience Cards Section */}
           <div className="flex-1">
-            <div className="flex flex-col gap-6">
-              {experiences.map((experience, index) => (
-                <ExperienceCard key={index} {...experience} />
-              ))}
-            </div>
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
+            >
+              <div className="flex flex-col gap-6">
+                {experiences.map((experience, index) => (
+                  <ExperienceCard key={index} {...experience} />
+                ))}
+              </div>
+            </motion.div>
           </div>
         </div>
       </Container>
