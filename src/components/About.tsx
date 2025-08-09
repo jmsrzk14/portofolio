@@ -7,7 +7,7 @@ import {motion} from 'framer-motion';
 
 const About = () => {
   return (
-    <Section id="about" className="bg-gray-900">
+    <Section id="about" className="bg-gray-950/80">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: -30 }}
@@ -31,7 +31,7 @@ const About = () => {
                 alt="James F R Tambunan"
                 className="w-full h-auto rounded-lg shadow-lg object-cover aspect-[4/3]"
               />
-              <div className="absolute inset-0 rounded-lg"></div>
+              <div className="absolute inset-0 rounded-lg bg-gray-950/20"></div>
             </div>
           </motion.div>
           
