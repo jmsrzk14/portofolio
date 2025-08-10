@@ -2,7 +2,6 @@ import React from 'react';
 import { Code, Palette, Globe, Smartphone, Database, Code2 } from 'lucide-react';
 import { Container } from './ui/Container';
 import { Section } from './ui/Section';
-import Lanyard from './Lanyard/Lanyard';
 import {motion} from 'framer-motion';
 
 const About = () => {
