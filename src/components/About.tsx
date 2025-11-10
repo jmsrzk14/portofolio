@@ -42,11 +42,11 @@ const About = () => {
             >
             <div className="space-y-6">
               <p className="text-gray-300 text-lg">
-                I am an active 4th semester student majoring in Information Technology at Del of Institute Technology with a GPA 
-                of 3.34. And have experience in open source projects and expertise in website and mobile application 
-                development languages. Have the ability to work in a team and have good communication, and are committed to 
-                developing efficient and attractive technology solutions in the field of software development and are always eager 
-                to learn new technologies
+                I'm a software and IoT developer with designing and implementing scalable, high-performance systems. 
+                Experienced in JavaScript, TypeScript, PHP, Go, Dart, Java, Arduino, and Raspberry Pi, with strong 
+                proficiency in RESTful API development, database optimization, and IoT architecture. Adept at building 
+                full-stack solutions using Laravel, Next.js, and Flutter, with a commitment to delivering secure, 
+                efficient, and impactful technology solutions that accelerate organizational growth.
               </p>
             
               <div className="space-y-8 mt-8">

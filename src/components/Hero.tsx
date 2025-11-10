@@ -7,7 +7,7 @@ import ProfileCard from './ProfileCard/ProfileCard'
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-  const words = ["Back End Developer", "Front End Developer", "Mobile Programming"];
+  const words = ["Back End Developer", "Front End Developer", "Mobile Programming", "Machine Learning Engineer", "IoT Engineer"];
 
   return (
     <Section id="home" className="min-h-screen flex items-center relative overflow-hidden">

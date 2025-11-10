@@ -22,7 +22,7 @@ export const AnimatedText: React.FC<AnimatedTextProps> = ({
         wordIndex = (wordIndex + 1) % words.length;
         setCurrentWord(words[wordIndex]);
         setIsVisible(true);
-      }, 500); // Half of transition duration
+      }, 500);
       
     }, interval);
 
