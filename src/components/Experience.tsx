@@ -8,6 +8,15 @@ import {motion} from 'framer-motion';
 
 const experiences = [
   {
+    title: 'Lead Developer',
+    company: 'PT. Rinel Tech Nusantara',
+    period: 'Sep 2025 - Current',
+    description: ['Collaborated in developing real-world projects tailored to client needs',
+                 'Led the web development team to deliver projects on target',
+                 'Continuously explored and adopted emerging technologies to address industry demands.'],
+    imageUrl: '/images/rine.webp',
+  },
+  {
     title: 'Web Developer (Internship)',
     company: 'PT. Winnicode Garuda Teknologi',
     period: 'Jan 2025 - Jun 2025',
@@ -44,9 +53,25 @@ const experiences = [
     imageUrl: '/images/bpr.png',
   },
   {
+    title: 'Head of education division',
+    company: 'HIMATIF Institute Technology Del',
+    period: 'Nov 2025 - Current',
+    description: ['Conducting tutorials to juniors every 3 weeks 2 times, increasing understanding of the course by 25-30%', 
+                 'Conduct quizzes 2 times per semester, evaluating comprehension with an increase of 30-40%'],
+    imageUrl: '/images/himatif.jpeg',
+  },
+  {
+    title: 'Head of Research and Technology Division',
+    company: 'Del Robotic Club Institute Technology Del',
+    period: 'Nov 2025 - Current',
+    description: ['Learning facilitator for the use of Arduino', 
+                 'Learning facilitator for IoT Learning facilitator for robot design'],
+    imageUrl: '/images/DRC.png',
+  },
+  {
     title: 'Deputy head of education division',
     company: 'HIMATIF Institute Technology Del',
-    period: 'Sep 2024 - Current',
+    period: 'Sep 2024 - Nov 2025',
     description: ['Conducting tutorials to juniors every 3 weeks 2 times, increasing understanding of the course by 25-30%', 
                  'Conduct quizzes 2 times per semester, evaluating comprehension with an increase of 30-40%'],
     imageUrl: '/images/himatif.jpeg',
@@ -62,7 +87,7 @@ const experiences = [
   {
     title: 'Member of KRSBI-B Division',
     company: 'Del Robotic Club Institute Technology Del',
-    period: 'Jan 2024 - Current',
+    period: 'Jan 2024 - Nov 2025',
     description: ['Learning facilitator for the use of Arduino', 
                  'Learning facilitator for IoT Learning facilitator for robot design'],
     imageUrl: '/images/DRC.png',
@@ -72,9 +97,9 @@ const experiences = [
 const logos = [
   { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png', label: 'HTML' },
   { src: 'https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo-tumb-150x150.png', label: 'CSS' },
-  { src: 'https://www.kenantomfiebukit.site/assets/javascript-BjiGfaT-.png', label: 'JavaScript' },
+  { src: 'https://kenantomfie.site/assets/javascript-BjiGfaT-.png', label: 'JavaScript' },
   { src: '/images/php.png', label: 'PHP' },
-  { src: 'https://www.kenantomfiebukit.site/assets/mysql-D1fmG43W.png', label: 'MySQL' },
+  { src: 'https://kenantomfie.site/assets/mysql-D1fmG43W.png', label: 'MySQL' },
   { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png', label: 'Laravel' },
   { src: 'https://img.icons8.com/?size=48&id=7AFcZ2zirX6Y&format=png', label: 'Dart' },
   { src: 'https://img.icons8.com/?size=48&id=13679&format=png', label: 'Java' },
@@ -88,6 +113,10 @@ const logos = [
   { src: 'https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000', label: 'TypeScript' },
   { src: 'https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000', label: 'Node JS' },
   { src: 'https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000', label: 'Tailwind' },
+  { src: 'https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000', label: 'Vite' },
+  { src: 'https://img.icons8.com/?size=100&id=13444&format=png&color=000000', label: 'Arduino IDE' },
+  { src: 'https://img.icons8.com/?size=100&id=T6XctcOVwqAb&format=png&color=000000', label: 'Raspberry PI' },
+  { src: '/images/next.png', label: 'Next JS' },
 ];
 
 const Experience = () => {
