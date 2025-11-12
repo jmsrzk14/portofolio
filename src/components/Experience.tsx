@@ -57,15 +57,15 @@ const experiences = [
     company: 'HIMATIF Institute Technology Del',
     period: 'Nov 2025 - Current',
     description: ['Conducting tutorials to juniors every 3 weeks 2 times, increasing understanding of the course by 25-30%', 
-                 'Conduct quizzes 2 times per semester, evaluating comprehension with an increase of 30-40%'],
+                 'Responsible for providing training about the world of IT to members'],
     imageUrl: '/images/himatif.jpeg',
   },
   {
     title: 'Head of Research and Technology Division',
     company: 'Del Robotic Club Institute Technology Del',
     period: 'Nov 2025 - Current',
-    description: ['Learning facilitator for the use of Arduino', 
-                 'Learning facilitator for IoT Learning facilitator for robot design'],
+    description: ['Exploring trending technologies in the world of robotics', 
+                 'Responsible for providing robotics training to new members'],
     imageUrl: '/images/DRC.png',
   },
   {
