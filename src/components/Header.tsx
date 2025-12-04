@@ -24,6 +24,7 @@ const Header = () => {
               <a href="#about" className="text-gray-300 hover:text-blue-400 transition-colors">About</a>
               <a href="#experience" className="text-gray-300 hover:text-blue-400 transition-colors">Experience</a>
               <a href="#projects" className="text-gray-300 hover:text-blue-400 transition-colors">Projects</a>
+              <a href="#certificate" className="text-gray-300 hover:text-blue-400 transition-colors">Certificate</a>
               <a href="#contact" className="text-gray-300 hover:text-blue-400 transition-colors">Contact</a>
             </nav>
 
@@ -57,6 +58,7 @@ const Header = () => {
                 <a href="#about" className="py-2 text-gray-300 hover:text-blue-400">About</a>
                 <a href="#experience" className="py-2 text-gray-300 hover:text-blue-400">Experience</a>
                 <a href="#projects" className="py-2 text-gray-300 hover:text-blue-400">Projects</a>
+                <a href="#certificate" className="py-2 text-gray-300 hover:text-blue-400">Certificate</a>
                 <a href="#contact" className="py-2 text-gray-300 hover:text-blue-400">Contact</a>
               </nav>
             </div>

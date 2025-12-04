@@ -115,7 +115,6 @@ const logos = [
   { src: 'https://img.icons8.com/?size=100&id=4PiNHtUJVbLs&format=png&color=000000', label: 'Tailwind' },
   { src: 'https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000', label: 'Vite' },
   { src: 'https://img.icons8.com/?size=100&id=13444&format=png&color=000000', label: 'Arduino IDE' },
-  { src: 'https://img.icons8.com/?size=100&id=T6XctcOVwqAb&format=png&color=000000', label: 'Raspberry PI' },
   { src: '/images/next.png', label: 'Next JS' },
 ];
 

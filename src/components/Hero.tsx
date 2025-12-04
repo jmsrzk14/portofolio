@@ -73,7 +73,7 @@ const Hero = () => {
                 handle="jmsrzk14"
                 status="Online"
                 contactText="Contact Me"
-                avatarUrl="/images/JamesF.png"
+                avatarUrl="/images/JamesFR.png"
                 iconUrl="https://img.icons8.com/?size=100&id=XLFvWkhcJcr4&format=png&color=000000"
                 showUserInfo={true}
                 enableTilt={true}
