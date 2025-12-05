@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     githubLink: 'https://github.com/jmsrzk14/winicode_beritaku',
     liveLink: '',
     features: [
-      'Real-time news updates dari berbagai sumber',
+      'Pengelolaan data',
       'Kategori berita yang terorganisir dengan baik',
       'Pencarian berita yang cepat dan akurat',
       'Responsive design untuk semua perangkat',
@@ -193,12 +193,9 @@ export const projectsData: Project[] = [
   }
 ];
 
-// File 2: ProjectDetailPage.tsx
-// ==========================================
 import React, { useState, useEffect } from "react";
 import { Github, ExternalLink, ArrowLeft, ChevronLeft, ChevronRight, Code, Star } from "lucide-react";
 import { motion } from "framer-motion";
-import { Project } from "./ProjectsData";
 
 interface ProjectDetailPageProps {
   project: Project;
@@ -211,7 +208,6 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -292,7 +288,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
             >
               <div className="flex items-center gap-2 mb-4">
                 <Code size={20} className="text-blue-400" />
-                <h2 className="text-xl font-semibold text-white">Technologies Used</h2>
+                <h2 className="text-xl font-semibold text-white">Technologies</h2>
               </div>
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, i) => (
@@ -331,7 +327,7 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                   className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg hover:from-blue-600 hover:to-purple-600 transition-colors font-medium shadow-lg shadow-blue-500/30"
                 >
                   <ExternalLink size={20} />
-                  Lihat Utama
+                  Demo
                 </a>
               )}
             </motion.div>
@@ -344,12 +340,12 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4 }}
-              className="relative h-[400px] bg-gray-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl overflow-hidden"
+              className="relative h-[400px] rounded-xl overflow-hidden"
             >
               <img
                 src={project.images[currentImageIndex]}
                 alt={`${project.title} - ${currentImageIndex + 1}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
 
               {project.images.length > 1 && (
@@ -358,14 +354,14 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
                     onClick={prevImage}
                     className="absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-gray-900/80 backdrop-blur-sm rounded-full hover:bg-gray-800 transition-colors border border-blue-500/20"
                   >
-                    <ChevronLeft className="text-white" size={24} />
+                    <ChevronLeft className="text-white" size={18} />
                   </button>
 
                   <button
                     onClick={nextImage}
                     className="absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-gray-900/80 backdrop-blur-sm rounded-full hover:bg-gray-800 transition-colors border border-blue-500/20"
                   >
-                    <ChevronRight className="text-white" size={24} />
+                    <ChevronRight className="text-white" size={18} />
                   </button>
 
                   <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2">

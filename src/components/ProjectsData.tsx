@@ -16,6 +16,32 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     id: 1,
+    title: 'Website BEM IT Del',
+    shortDescription: 'Get the latest news easily and reliably',
+    fullDescription: 'Website BEM IT Del adalah sistem untuk memberikan informasi BEM IT Del seperti Himpunan, UKM, Departemen, Berita dan Pengumuman terbaru tentang Mahasiswa IT Del. Website ini memiliki 8 kategori role dan setiap role memiliki role tambahan lain untuk kepengurusan. Website ini dibangun menggunakan Next.js dan Gin Golang dan terhubung pada sistem internal IT Del sehingga data Mahasiswa tetap terhubung dengan data kampus.',
+    image: '/images/bem.jpeg',
+    images: [
+      '/images/bem.jpeg',
+      '/images/bem1.png',
+      '/images/bem2.png',
+      '/images/bem3.png',
+    ],
+    technologies: ['Next.js', 'Gin', 'PostgreSQL', 'Tailwind'],
+    githubLink: 'https://github.com/jmsrzk14/winicode_beritaku',
+    liveLink: 'https://bem-itdel.netlify.app/',
+    features: [
+      'Pengelolaan Daftar Barang Departemen Olahraga dan Departemen Sarana dan Prasarana  ',
+      'Peminjaman Barang Departemen Olahraga dan Departemen Sarana Prasarana oleh Mahasiswa',
+      'Pengelolaan Kalender Kegiatan oleh Departemen Pusat Dalam Kampus',
+      'Pengajuan Aspirasi Mahasiswa untuk BEM dan MPM',
+      'Pengelolaan Data Pengumuman khusus untuk Mahasiswa IT Del',
+      'Login yang menggunakan 2FA untuk keamanan sistem'
+    ],
+    challenges: 'Integrasi multiple API berita dan optimasi performa',
+    learning: 'Microservices architecture dan state management'
+  },
+  {
+    id: 2,
     title: 'BeritaKu',
     shortDescription: 'Get the latest news easily and reliably',
     fullDescription: 'BeritaKu adalah aplikasi berita modern yang memungkinkan pengguna untuk mendapatkan informasi terkini dari berbagai sumber terpercaya. Aplikasi ini dibangun dengan arsitektur microservices menggunakan React untuk frontend dan Golang serta Laravel untuk backend, memberikan performa yang cepat dan scalable.',
@@ -40,7 +66,7 @@ export const projectsData: Project[] = [
     learning: 'Microservices architecture dan state management'
   },
   {
-    id: 2,
+    id: 3,
     title: 'Sahulos Information System',
     shortDescription: 'Explore deeper into Batak traditional traditions',
     fullDescription: 'Sahulos adalah sistem informasi yang didedikasikan untuk melestarikan dan membagikan pengetahuan tentang tradisi Batak. Platform ini menyediakan informasi lengkap tentang adat istiadat, upacara, dan budaya Batak dengan interface yang modern dan mudah digunakan.',
@@ -65,7 +91,7 @@ export const projectsData: Project[] = [
     learning: 'TypeScript implementation dan cultural preservation through tech'
   },
   {
-    id: 3,
+    id: 4,
     title: 'KawalPTNku Information System',
     shortDescription: 'Providing recommendations for entering PTN',
     fullDescription: 'KawalPTNku adalah platform yang membantu calon mahasiswa dalam memilih dan mempersiapkan diri untuk masuk Perguruan Tinggi Negeri. Sistem ini menggunakan algoritma untuk memberikan rekomendasi PTN yang sesuai dengan profil dan nilai siswa.',
@@ -90,7 +116,7 @@ export const projectsData: Project[] = [
     learning: 'Go Fiber framework dan complex data analysis'
   },
   {
-    id: 4,
+    id: 5,
     title: 'HIMATIF Apps',
     shortDescription: 'Get to know more about HIMATIF IT DEL',
     fullDescription: 'HIMATIF Apps adalah aplikasi mobile resmi Himpunan Mahasiswa Teknik Informatika IT Del. Aplikasi ini menyediakan berbagai informasi dan fitur yang memudahkan mahasiswa dalam mengakses kegiatan dan program HIMATIF.',
@@ -115,7 +141,7 @@ export const projectsData: Project[] = [
     learning: 'Flutter development dan local database management'
   },
   {
-    id: 5,
+    id: 6,
     title: 'Marudut Tani Shop Website',
     shortDescription: 'Make it easy to manage the store',
     fullDescription: 'Marudut Tani adalah sistem e-commerce yang dirancang khusus untuk toko pertanian. Platform ini memudahkan pengelolaan inventori, transaksi, dan customer relationship management untuk bisnis pertanian.',
@@ -140,7 +166,7 @@ export const projectsData: Project[] = [
     learning: 'Laravel best practices dan e-commerce flow'
   },
   {
-    id: 6,
+    id: 7,
     title: 'Monitoring Number of People',
     shortDescription: 'View and monitor people around you',
     fullDescription: 'Sistem IoT untuk monitoring jumlah orang di suatu ruangan secara real-time. Menggunakan sensor dan computer vision untuk menghitung dan menampilkan data dalam dashboard yang informatif.',
@@ -164,29 +190,4 @@ export const projectsData: Project[] = [
     challenges: 'Akurasi detection dan real-time processing',
     learning: 'IoT integration dan computer vision with Python'
   },
-  {
-    id: 7,
-    title: 'HKBP SITOLUAMA Website',
-    shortDescription: 'Find information about HKBP Sitoluama',
-    fullDescription: 'Website resmi HKBP Sitoluama yang menyediakan informasi lengkap tentang gereja, jadwal ibadah, kegiatan, dan berbagai program pelayanan. Website ini dirancang dengan desain yang modern namun tetap mencerminkan nilai-nilai gereja.',
-    image: '/images/Sitoluama.png',
-    images: [
-      '/images/Sitoluama.png',
-      '/images/Sitoluama.png',
-      '/images/Sitoluama.png'
-    ],
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
-    githubLink: 'https://github.com/jmsrzk14/PA1-Kel06',
-    liveLink: '',
-    features: [
-      'Informasi jadwal ibadah lengkap',
-      'Berita dan pengumuman gereja',
-      'Galeri kegiatan dan event',
-      'Formulir pendaftaran online',
-      'Streaming ibadah live',
-      'Responsive design untuk semua device'
-    ],
-    challenges: 'Integrasi live streaming dan form handling',
-    learning: 'Vanilla JavaScript dan modern web development'
-  }
 ];

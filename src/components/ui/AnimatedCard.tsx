@@ -54,7 +54,7 @@ const AnimatedCard: React.FC<AnimatedCardProps> = ({ project, onClick }) => {
             </div>
 
             <div className="flex justify-start">
-              <button className="w-[20vh] flex items-center justify-center gap-1 py-2 bg-gradient-to-r from-indigo-500 to-purple-500 text-white rounded-lg hover:from-indigo-600 hover:to-purple-600 transition-all text-sm sm:text-base font-medium">
+              <button className="w-[20vh] flex items-center justify-center gap-1 text-sm text-white sm:text-base font-medium">
                 View Detail
                 <ArrowRight size={20} />
               </button>

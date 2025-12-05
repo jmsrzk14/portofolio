@@ -116,6 +116,8 @@ const logos = [
   { src: 'https://img.icons8.com/?size=100&id=dJjTWMogzFzg&format=png&color=000000', label: 'Vite' },
   { src: 'https://img.icons8.com/?size=100&id=13444&format=png&color=000000', label: 'Arduino IDE' },
   { src: '/images/next.png', label: 'Next JS' },
+  { src: 'https://img.icons8.com/?size=100&id=JRnxU7ZWP4mi&format=png&color=000000', label: 'PostgreSQL' },
+  { src: 'https://img.icons8.com/?size=100&id=Wln8Z3PcXanx&format=png&color=000000', label: 'Docker' },
 ];
 
 const Experience = () => {
