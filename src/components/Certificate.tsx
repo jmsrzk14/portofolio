@@ -10,28 +10,61 @@ interface CertificateData {
 const certificatesData: CertificateData[] = [
   {
     id: 1,
-    image: '/images/SIC6.png'
+    image: '/images/ibm.png'
   },
   {
     id: 2,
-    image: '/images/AI.png'
+    image: '/images/samsung.png'
   },
   {
     id: 3,
-    image: '/images/Flutter.png'
+    image: '/images/SIC6.png'
   },
   {
     id: 4,
-    image: '/images/PCA.jpg'
+    image: '/images/AI.png'
   },
   {
     id: 5,
+    image: '/images/Flutter.png'
+  },
+  {
+    id: 6,
+    image: '/images/asmat.png'
+  },
+  {
+    id: 7,
+    image: '/images/PCA.jpg'
+  },
+  {
+    id: 8,
     image: '/images/Kader25.png'
-  }
+  },
+  {
+    id: 9,
+    image: '/images/FindIT.png'
+  },
+  {
+    id: 10,
+    image: '/images/backend.png'
+  },
+  {
+    id: 11,
+    image: '/images/cloud.png'
+  },
+  {
+    id: 12,
+    image: '/images/frontend.png'
+  },
 ];
 
 const Certificate: React.FC = () => {
   const [selectedCert, setSelectedCert] = useState<CertificateData | null>(null);
+  const [visibleCount, setVisibleCount] = useState(6);
+  const visibleCertificates = certificatesData.slice(0, visibleCount);
+  const showMore = () => {
+    setVisibleCount((prev) => prev + 6);
+  };
 
   return (
     <section id="certificate" className="relative py-20 bg-gray-900 overflow-hidden">
@@ -113,9 +146,8 @@ const Certificate: React.FC = () => {
           </h2>
         </motion.div>
 
-        {/* Certificates Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-          {certificatesData.map((cert, index) => (
+       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          {visibleCertificates.map((cert, index) => (
             <motion.div
               key={cert.id}
               initial={{ opacity: 0, y: 20 }}
@@ -141,15 +173,31 @@ const Certificate: React.FC = () => {
                   </div>
                 </div>
 
-                {/* Corner Glow Effect */}
                 <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-blue-500/20 to-transparent blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             </motion.div>
           ))}
         </div>
+
+        <div className="flex justify-center mt-12">
+          {visibleCount < certificatesData.length ? (
+            <button
+              onClick={showMore}
+              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all font-medium"
+            >
+              Show More
+            </button>
+          ) : (
+            <button
+              onClick={() => setVisibleCount(6)}
+              className="px-6 py-3 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-all font-medium"
+            >
+              Show Less
+            </button>
+          )}
+        </div>
       </div>
 
-      {/* Zoom Modal */}
       <AnimatePresence>
         {selectedCert && (
           <motion.div

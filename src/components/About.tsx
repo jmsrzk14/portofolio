@@ -23,8 +23,9 @@ const About = () => {
             whileInView={{ zoom: 1 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
+            className='w-[100vh] flex justify-start items-start'
           >
-            <div className="relative w-full max-w-2xl mx-auto">
+            <div className="relative w-[full] max-w-3xl mx-auto">
               <img 
                 src="/images/18.png"
                 alt="James F R Tambunan"
@@ -42,7 +43,7 @@ const About = () => {
               viewport={{ once: true }}
             >
             <div className="space-y-6">
-              <p className="text-gray-300 text-lg">
+              <p className="text-gray-300 text-lg w-[80vh]">
                 I'm a software and IoT developer with designing and implementing scalable, high-performance systems. 
                 Experienced in JavaScript, TypeScript, PHP, Go, Dart, Java, Arduino, and Raspberry Pi, with strong 
                 proficiency in RESTful API development, database optimization, and IoT architecture. Adept at building 
