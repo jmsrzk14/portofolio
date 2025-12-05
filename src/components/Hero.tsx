@@ -44,7 +44,7 @@ const Hero = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="/images/Resume.pdf"
+                  href="/images/James Frans Rizky Tambunan CV.pdf"
                   download
                   className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                 >
