@@ -13,7 +13,7 @@ function App() {
   const [isDetailView, setIsDetailView] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen bg-gray-900 overflow-x-hidden">
       {!isDetailView && <Header />}
       <main>
         {!isDetailView && <Hero />}

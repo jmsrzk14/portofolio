@@ -17,8 +17,8 @@ export const projectsData: Project[] = [
   {
     id: 1,
     title: 'Website BEM IT Del',
-    shortDescription: 'Get the latest news easily and reliably',
-    fullDescription: 'Website BEM IT Del adalah sistem untuk memberikan informasi BEM IT Del seperti Himpunan, UKM, Departemen, Berita dan Pengumuman terbaru tentang Mahasiswa IT Del. Website ini memiliki 8 kategori role dan setiap role memiliki role tambahan lain untuk kepengurusan. Website ini dibangun menggunakan Next.js dan Gin Golang dan terhubung pada sistem internal IT Del sehingga data Mahasiswa tetap terhubung dengan data kampus.',
+    shortDescription: 'Easy information about BEM IT Del',
+    fullDescription: 'Website BEM IT Del adalah sistem untuk memberikan informasi BEM IT Del seperti Himpunan, UKM, Departemen, Berita dan Pengumuman terbaru tentang Mahasiswa IT Del. Website ini memiliki 8 kategori role dan setiap role memiliki role tambahan lain untuk kepengurusan. Website ini terhubung pada sistem internal IT Del sehingga data Mahasiswa tetap terhubung dengan data kampus.',
     image: '/images/bem.jpeg',
     images: [
       '/images/bem.jpeg',
@@ -28,9 +28,9 @@ export const projectsData: Project[] = [
     ],
     technologies: ['Next.js', 'Gin', 'PostgreSQL', 'Tailwind'],
     githubLink: 'https://github.com/jmsrzk14/winicode_beritaku',
-    liveLink: 'https://bem-itdel.netlify.app/',
+    liveLink: 'https://bem.del.ac.id',
     features: [
-      'Pengelolaan Daftar Barang Departemen Olahraga dan Departemen Sarana dan Prasarana  ',
+      'Pengelolaan Daftar Barang Departemen Olahraga dan Departemen Sarana dan Prasarana',
       'Peminjaman Barang Departemen Olahraga dan Departemen Sarana Prasarana oleh Mahasiswa',
       'Pengelolaan Kalender Kegiatan oleh Departemen Pusat Dalam Kampus',
       'Pengajuan Aspirasi Mahasiswa untuk BEM dan MPM',
@@ -44,23 +44,20 @@ export const projectsData: Project[] = [
     id: 2,
     title: 'BeritaKu',
     shortDescription: 'Get the latest news easily and reliably',
-    fullDescription: 'BeritaKu adalah aplikasi berita modern yang memungkinkan pengguna untuk mendapatkan informasi terkini dari berbagai sumber terpercaya. Aplikasi ini dibangun dengan arsitektur microservices menggunakan React untuk frontend dan Golang serta Laravel untuk backend, memberikan performa yang cepat dan scalable.',
+    fullDescription: 'BeritaKu adalah aplikasi berita modern yang memungkinkan pengguna untuk mendapatkan informasi terkini dari berbagai sumber terpercaya. Dan juga kategori berita yang terstruktur guna memudahkan pengguna mendapatkan informasi berita yang terorganisir.',
     image: '/images/BeritaKu.png',
     images: [
       '/images/BeritaKu.png',
-      '/images/BeritaKu.png',
-      '/images/BeritaKu.png'
+      '/images/beritaku1.png',
+      '/images/beritaku2.png',
     ],
     technologies: ['React', 'Golang', 'Laravel', 'Tailwind'],
     githubLink: 'https://github.com/jmsrzk14/winicode_beritaku',
-    liveLink: '',
+    liveLink: 'https://berita-ku.vercel.app',
     features: [
-      'Real-time news updates dari berbagai sumber',
+      'Pengelolaan Data Berita yang mudah',
       'Kategori berita yang terorganisir dengan baik',
       'Pencarian berita yang cepat dan akurat',
-      'Responsive design untuk semua perangkat',
-      'Backend API yang robust dengan Golang',
-      'Admin panel menggunakan Laravel'
     ],
     challenges: 'Integrasi multiple API berita dan optimasi performa',
     learning: 'Microservices architecture dan state management'
@@ -69,23 +66,24 @@ export const projectsData: Project[] = [
     id: 3,
     title: 'Sahulos Information System',
     shortDescription: 'Explore deeper into Batak traditional traditions',
-    fullDescription: 'Sahulos adalah sistem informasi yang didedikasikan untuk melestarikan dan membagikan pengetahuan tentang tradisi Batak. Platform ini menyediakan informasi lengkap tentang adat istiadat, upacara, dan budaya Batak dengan interface yang modern dan mudah digunakan.',
+    fullDescription: 'Sahulos adalah sistem informasi yang didedikasikan untuk melestarikan dan membagikan pengetahuan tentang Busana Batak. Platform ini menyediakan informasi edukasi dan membuat tantangan sendiri untuk menjaga warisan busana batak.',
     image: '/images/sahulos.png',
     images: [
       '/images/sahulos.png',
-      '/images/sahulos.png',
-      '/images/sahulos.png'
+      '/images/sahulos1.png',
+      '/images/sahulos2.png',
+      '/images/sahulos3.png',
+      '/images/sahulos4.png',
+      '/images/sahulos5.png',
     ],
     technologies: ['React', 'TypeScript', 'JavaScript', 'Tailwind'],
     githubLink: 'https://github.com/jmsrzk14/sahulos_batak',
     liveLink: 'https://sahulos.netlify.app',
     features: [
-      'Database lengkap tradisi dan adat Batak',
-      'Pencarian informasi yang mudah dan cepat',
-      'Galeri multimedia (foto dan video)',
-      'Artikel edukatif tentang budaya Batak',
-      'Interface yang user-friendly',
-      'Multi-language support (Indonesia & Batak)'
+      'Daftar Busana Batak yang lengkap',
+      'Tukar & Jual Busana Batak sesama pengguna',
+      'Artikel edukatif tentang Busana Batak',
+      'Buat Tantangan sendiri dalam menjaga warisan Busana Batak'
     ],
     challenges: 'Mengorganisir data budaya yang kompleks',
     learning: 'TypeScript implementation dan cultural preservation through tech'
@@ -94,12 +92,13 @@ export const projectsData: Project[] = [
     id: 4,
     title: 'KawalPTNku Information System',
     shortDescription: 'Providing recommendations for entering PTN',
-    fullDescription: 'KawalPTNku adalah platform yang membantu calon mahasiswa dalam memilih dan mempersiapkan diri untuk masuk Perguruan Tinggi Negeri. Sistem ini menggunakan algoritma untuk memberikan rekomendasi PTN yang sesuai dengan profil dan nilai siswa.',
+    fullDescription: 'KawalPTNku adalah platform yang membantu calon mahasiswa mempersiapkan diri untuk masuk Perguruan Tinggi Negeri. Aplikasi ini menyediakan paket Tryout yang terintegrasi dengan midtrans sebagai payment gateway. Hasil Tryout akan di seleksi melalui peringkat nilai pada PTN pilihan siswa serta membantu siswa melihat peluang dengan kondisi persaingan di tiap PTN.',
     image: '/images/KawalPTN.png',
     images: [
       '/images/KawalPTN.png',
-      '/images/KawalPTN.png',
-      '/images/KawalPTN.png'
+      '/images/kawalptn1.png',
+      '/images/kawalptn2.png',
+      '/images/kawalptn3.png',
     ],
     technologies: ['React', 'Fiber', 'MySQL', 'Tailwind'],
     githubLink: 'https://github.com/jmsrzk14/PA2-Kel08',
