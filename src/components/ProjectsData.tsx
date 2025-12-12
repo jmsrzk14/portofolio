@@ -104,12 +104,11 @@ export const projectsData: Project[] = [
     githubLink: 'https://github.com/jmsrzk14/PA2-Kel08',
     liveLink: 'https://kawalptn.netlify.app',
     features: [
-      'Sistem rekomendasi PTN berdasarkan nilai',
-      'Database lengkap PTN di Indonesia',
-      'Informasi jurusan dan akreditasi',
-      'Kalkulator peluang lolos PTN',
-      'Tips dan trik persiapan ujian',
-      'Forum diskusi antar calon mahasiswa'
+      'Sistem peluang masuk PTN berdasarkan nilai',
+      'Data daya tampung dan keketatan tiap PTN',
+      'Pembelian paket Tryout yang mudah dan cepat',
+      'Grafik nilai tiap percobaan Tryout',
+      'Ekspor PDF untuk Cetak sertifikat Tryout',
     ],
     challenges: 'Implementasi algoritma rekomendasi yang akurat',
     learning: 'Go Fiber framework dan complex data analysis'
@@ -118,23 +117,27 @@ export const projectsData: Project[] = [
     id: 5,
     title: 'HIMATIF Apps',
     shortDescription: 'Get to know more about HIMATIF IT DEL',
-    fullDescription: 'HIMATIF Apps adalah aplikasi mobile resmi Himpunan Mahasiswa Teknik Informatika IT Del. Aplikasi ini menyediakan berbagai informasi dan fitur yang memudahkan mahasiswa dalam mengakses kegiatan dan program HIMATIF.',
+    fullDescription: 'HIMATIF Apps adalah aplikasi mobile resmi Himpunan Mahasiswa Teknologi Informasi IT Del. Aplikasi ini menyediakan berbagai informasi dan fitur yang memudahkan mahasiswa dalam mengakses kegiatan dan program HIMATIF.',
     image: '/images/himatif apps.png',
     images: [
       '/images/himatif apps.png',
-      '/images/himatif apps.png',
-      '/images/himatif apps.png'
+      '/images/himatif1.jpeg',
+      '/images/himatif2.jpeg',
+      '/images/himatif3.jpeg',
+      '/images/himatif4.jpeg',
+      '/images/himatif5.jpeg',
+      '/images/himatif6.jpeg',
+      '/images/himatif7.jpeg',
     ],
     technologies: ['Flutter', 'SQLite', 'Dart'],
-    githubLink: 'https://github.com',
+    githubLink: 'https://github.com/jmsrzk14/himatif-apps.git',
     liveLink: '',
     features: [
       'Informasi kegiatan dan event HIMATIF',
-      'Jadwal pertemuan dan rapat',
-      'Notifikasi real-time',
-      'Profil anggota HIMATIF',
-      'Gallery kegiatan organisasi',
-      'Offline mode dengan SQLite'
+      'Informasi pencapaian dan penghargaan HIMATIF',
+      'Kepengurusan HIMATIF tiap periode',
+      'Infomasi visi dan misi HIMATIF',
+      'Profil Data Diri sebagai kepengurusan',
     ],
     challenges: 'Optimasi performa aplikasi mobile',
     learning: 'Flutter development dan local database management'
@@ -147,19 +150,21 @@ export const projectsData: Project[] = [
     image: '/images/Marudut Tani Home.png',
     images: [
       '/images/Marudut Tani Home.png',
-      '/images/Marudut Tani Home.png',
-      '/images/Marudut Tani Home.png'
+      '/images/marudut1.png',
+      '/images/marudut2.png',
+      '/images/marudut3.png',
+      '/images/marudut4.png',
+      '/images/marudut5.png'
     ],
     technologies: ['Laravel 9', 'MySQL', 'Bootstrap', 'PHP'],
     githubLink: 'https://github.com/jmsrzk14/PA1-Kel06.git',
     liveLink: '',
     features: [
-      'Manajemen produk dan inventori',
-      'Sistem pemesanan online',
-      'Admin dashboard lengkap',
-      'Laporan penjualan dan analytics',
-      'Customer management system',
-      'Payment gateway integration'
+      'Manajemen Stok dan Barang yang tersedia',
+      'Sistem Pencatatan Penjualan Barang yang efisien',
+      'Dashboard Laporan Penjualan setiap bulan dalam satu tahun',
+      'Manajemen Kasir yang yang mudah',
+      'Sistem Informasi Barang dan Alat pertanian yang tersedia di toko'
     ],
     challenges: 'Integrasi payment system yang aman',
     learning: 'Laravel best practices dan e-commerce flow'
