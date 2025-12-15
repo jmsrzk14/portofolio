@@ -27,7 +27,7 @@ const About = () => {
           >
             <div className="relative w-full max-w-3xl mx-auto mr-[55vh] sm:mr-0">
               <img 
-                src="/images/18.png"
+                src="/images/.png"
                 alt="James F R Tambunan"
                 className="w-[120em] h-auto rounded-lg shadow-lg object-cover aspect-[4/3]"
                 style={{ filter: "grayscale(70%) contrast(120%)" }}
