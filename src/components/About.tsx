@@ -27,9 +27,9 @@ const About = () => {
           >
             <div className="relative w-full max-w-3xl mx-auto mr-[55vh] sm:mr-0">
               <img 
-                src="/images/.png"
+                src="/images/ding.png"
                 alt="James F R Tambunan"
-                className="w-[120em] h-auto rounded-lg shadow-lg object-cover aspect-[4/3]"
+                className="w-[35em] h-auto rounded-lg  object-cover aspect-[4/3]"
                 style={{ filter: "grayscale(70%) contrast(120%)" }}
               />
               <div className="absolute inset-0 rounded-lg bg-gray-950/20"></div>

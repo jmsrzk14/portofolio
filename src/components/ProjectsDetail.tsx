@@ -309,15 +309,17 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
               transition={{ delay: 0.7 }}
               className="flex flex-wrap gap-4"
             >
-              <a
-                href={project.githubLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 bg-gray-800 border border-gray-700 text-white rounded-lg hover:bg-gray-700 hover:border-blue-500/50 transition-all font-medium"
-              >
-                <Github size={20} />
-                Github
-              </a>
+              {project.githubLink && (
+                <a
+                  href={project.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-gray-800 border border-gray-700 text-white rounded-lg hover:bg-gray-700 hover:border-blue-500/50 transition-all font-medium"
+                >
+                  <Github size={20} />
+                  Github
+                </a>
+              )}
 
               {project.liveLink && (
                 <a

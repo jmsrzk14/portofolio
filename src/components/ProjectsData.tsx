@@ -16,6 +16,54 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     id: 1,
+    title: 'Eye Disease Detection Website',
+    shortDescription: 'Detect your eye fundus disease efficiently',
+    fullDescription: 'Website deteksi penyakit mata adalah sistem yang dirancang untuk mendeteksi 10 jenis penyakit mata seperti Central Serous Chorioretinopathy, Diabetic Retinopathy, Disc Edema, Glaucoma, Macular Scar, Myopia, Pterygium, Retinal Detachment, Retinitis Pigmentosa serta mata sehat. Sistem ini mampu mendeteksi penyakit mata melalui gambar fundus yang diberikan oleh user. Kemudian sistem akan memberikan output berupa gambar hasil segmentasi bagian mata yang terkena penyakit serta data nama penyakit yang terdeteksi.',
+    image: '/images/eye.png',
+    images: [
+      '/images/eye.png',
+      '/images/eye1.png',
+      '/images/eye2.png',
+      '/images/eye3.png',
+    ],
+    technologies: ['Next.js', 'Golang', 'Flask', 'PyTorch'],
+    githubLink: 'https://github.com/jmsrzk14/Eye-Disease-Detection.git',
+    liveLink: 'https://eye-disease-detection25.vercel.app',
+    features: [
+      'Sistem login untuk dokter yang terdaftar',
+      'Deteksi gambar fundus dengan hasil segmentasi',
+    ],
+    challenges: 'Integrasi multiple API berita dan optimasi performa',
+    learning: 'Microservices architecture dan state management'
+  },
+  {
+    id: 2,
+    title: 'Glioma Detection Website',
+    shortDescription: 'Detect your glioma disease easily and quickly',
+    fullDescription: 'Website deteksi penyakit glioma adalah sistem yang dirancang untuk mendeteksi penyakit glioma melalui data mutasi gen. Sistem akan mendeteksi penyakit glioma dengan inputan data mutasi gen yang diberikan user. Hasil output akan berupa data persentase rendah dan tingginya penyakit glioma.',
+    image: '/images/glioma.png',
+    images: [
+      '/images/glioma.png',
+      '/images/glioma1.png',
+      '/images/glioma2.png',
+      '/images/glioma3.png',
+    ],
+    technologies: ['Next.js', 'Flask', 'Python', 'Random Forest'],
+    githubLink: 'https://github.com/jmsrzk14/Glioma_Disease_Detection.git',
+    liveLink: '',
+    features: [
+      'Pengelolaan Daftar Barang Departemen Olahraga dan Departemen Sarana dan Prasarana',
+      'Peminjaman Barang Departemen Olahraga dan Departemen Sarana Prasarana oleh Mahasiswa',
+      'Pengelolaan Kalender Kegiatan oleh Departemen Pusat Dalam Kampus',
+      'Pengajuan Aspirasi Mahasiswa untuk BEM dan MPM',
+      'Pengelolaan Data Pengumuman khusus untuk Mahasiswa IT Del',
+      'Login yang menggunakan 2FA untuk keamanan sistem'
+    ],
+    challenges: 'Integrasi multiple API berita dan optimasi performa',
+    learning: 'Microservices architecture dan state management'
+  },
+  {
+    id: 3,
     title: 'Website BEM IT Del',
     shortDescription: 'Easy information about BEM IT Del',
     fullDescription: 'Website BEM IT Del adalah sistem untuk memberikan informasi BEM IT Del seperti Himpunan, UKM, Departemen, Berita dan Pengumuman terbaru tentang Mahasiswa IT Del. Website ini memiliki 8 kategori role dan setiap role memiliki role tambahan lain untuk kepengurusan. Website ini terhubung pada sistem internal IT Del sehingga data Mahasiswa tetap terhubung dengan data kampus.',
@@ -26,8 +74,8 @@ export const projectsData: Project[] = [
       '/images/bem2.png',
       '/images/bem3.png',
     ],
-    technologies: ['Next.js', 'Gin', 'PostgreSQL', 'Tailwind'],
-    githubLink: 'https://github.com/jmsrzk14/winicode_beritaku',
+    technologies: ['Next.js', 'Golang', 'PostgreSQL', 'Tailwind'],
+    githubLink: '',
     liveLink: 'https://bem.del.ac.id',
     features: [
       'Pengelolaan Daftar Barang Departemen Olahraga dan Departemen Sarana dan Prasarana',
@@ -41,7 +89,7 @@ export const projectsData: Project[] = [
     learning: 'Microservices architecture dan state management'
   },
   {
-    id: 2,
+    id: 4,
     title: 'BeritaKu',
     shortDescription: 'Get the latest news easily and reliably',
     fullDescription: 'BeritaKu adalah aplikasi berita modern yang memungkinkan pengguna untuk mendapatkan informasi terkini dari berbagai sumber terpercaya. Dan juga kategori berita yang terstruktur guna memudahkan pengguna mendapatkan informasi berita yang terorganisir.',
@@ -63,7 +111,7 @@ export const projectsData: Project[] = [
     learning: 'Microservices architecture dan state management'
   },
   {
-    id: 3,
+    id: 5,
     title: 'Sahulos Information System',
     shortDescription: 'Explore deeper into Batak traditional traditions',
     fullDescription: 'Sahulos adalah sistem informasi yang didedikasikan untuk melestarikan dan membagikan pengetahuan tentang Busana Batak. Platform ini menyediakan informasi edukasi dan membuat tantangan sendiri untuk menjaga warisan busana batak.',
@@ -89,7 +137,7 @@ export const projectsData: Project[] = [
     learning: 'TypeScript implementation dan cultural preservation through tech'
   },
   {
-    id: 4,
+    id: 6,
     title: 'KawalPTNku Information System',
     shortDescription: 'Providing recommendations for entering PTN',
     fullDescription: 'KawalPTNku adalah platform yang membantu calon mahasiswa mempersiapkan diri untuk masuk Perguruan Tinggi Negeri. Aplikasi ini menyediakan paket Tryout yang terintegrasi dengan midtrans sebagai payment gateway. Hasil Tryout akan di seleksi melalui peringkat nilai pada PTN pilihan siswa serta membantu siswa melihat peluang dengan kondisi persaingan di tiap PTN.',
@@ -114,7 +162,7 @@ export const projectsData: Project[] = [
     learning: 'Go Fiber framework dan complex data analysis'
   },
   {
-    id: 5,
+    id: 7,
     title: 'HIMATIF Apps',
     shortDescription: 'Get to know more about HIMATIF IT DEL',
     fullDescription: 'HIMATIF Apps adalah aplikasi mobile resmi Himpunan Mahasiswa Teknologi Informasi IT Del. Aplikasi ini menyediakan berbagai informasi dan fitur yang memudahkan mahasiswa dalam mengakses kegiatan dan program HIMATIF.',
@@ -143,7 +191,7 @@ export const projectsData: Project[] = [
     learning: 'Flutter development dan local database management'
   },
   {
-    id: 6,
+    id: 8,
     title: 'Marudut Tani Shop Website',
     shortDescription: 'Make it easy to manage the store',
     fullDescription: 'Marudut Tani adalah sistem e-commerce yang dirancang khusus untuk toko pertanian. Platform ini memudahkan pengelolaan inventori, transaksi, dan customer relationship management untuk bisnis pertanian.',
@@ -170,7 +218,7 @@ export const projectsData: Project[] = [
     learning: 'Laravel best practices dan e-commerce flow'
   },
   {
-    id: 7,
+    id: 9,
     title: 'Monitoring Number of People',
     shortDescription: 'View and monitor people around you',
     fullDescription: 'Sistem IoT untuk monitoring jumlah orang di suatu ruangan secara real-time. Menggunakan sensor dan computer vision untuk menghitung dan menampilkan data dalam dashboard yang informatif.',
