@@ -3,57 +3,59 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 
 interface CertificateData {
-  id: number;
   image: string;
 }
 
 const certificatesData: CertificateData[] = [
   {
-    id: 1,
+    image: '/images/gemastik.png'
+  },
+  {
+
     image: '/images/ibm.png'
   },
   {
-    id: 2,
+
     image: '/images/samsung.png'
   },
   {
-    id: 3,
+
     image: '/images/SIC6.png'
   },
   {
-    id: 4,
+
     image: '/images/AI.png'
   },
   {
-    id: 5,
+
     image: '/images/Flutter.png'
   },
   {
-    id: 6,
+
     image: '/images/asmat.png'
   },
   {
-    id: 7,
+
     image: '/images/PCA.jpg'
   },
   {
-    id: 8,
+
     image: '/images/Kader25.png'
   },
   {
-    id: 9,
+
     image: '/images/FindIT.png'
   },
   {
-    id: 10,
+
     image: '/images/backend.png'
   },
   {
-    id: 11,
+
     image: '/images/cloud.png'
   },
   {
-    id: 12,
+
     image: '/images/frontend.png'
   },
 ];
@@ -149,7 +151,7 @@ const Certificate: React.FC = () => {
        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
           {visibleCertificates.map((cert, index) => (
             <motion.div
-              key={cert.id}
+              key={cert.image}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}

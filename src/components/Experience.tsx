@@ -32,7 +32,7 @@ const experiences = [
     description: ['Assisted 55+ first-year students in discrete mathematics course',
                   'Accompanying first-year students in discussion sessions, exercises, or practicums',
                   'Guiding first-year students in understanding basic concepts such as logic, sets, relations, functions, and graphs'],
-    imageUrl: 'https://srgjo27.github.io/my-web-portofolio/static/media/Institut%20Teknologi%20Del.628d1d1ed1695f96ed50.png',
+    imageUrl: '/images/Del.png',
   },
   {
     title: 'Assistant Matriculation Commite',
@@ -41,7 +41,7 @@ const experiences = [
     description: ['Assisted 60+ first year students in Programming Introduction', 
                  'Familiar with C, HTML, and Microsoft Office for processing documents, data and presentations',
                  'Responsible for introducing the world of lectures to first year students'],
-    imageUrl: 'https://srgjo27.github.io/my-web-portofolio/static/media/Institut%20Teknologi%20Del.628d1d1ed1695f96ed50.png',
+    imageUrl: '/images/Del.png',
   },
   {
     title: 'Technician System',
@@ -82,7 +82,7 @@ const experiences = [
     period: 'Aug 2024',
     description: ['Physically and discipline training for 500+ first-year students', 
                  'Collaborates with other divisions to train first-year students'],
-    imageUrl: 'https://srgjo27.github.io/my-web-portofolio/static/media/Institut%20Teknologi%20Del.628d1d1ed1695f96ed50.png',
+    imageUrl: '/images/Del.png',
   },
   {
     title: 'Member of KRSBI-B Division',
