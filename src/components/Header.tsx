@@ -2,9 +2,39 @@ import React from 'react';
 import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
 import { Container } from './ui/Container';
 import { motion } from 'framer-motion';
+import { posthog } from '../lib/posthog';
+
+type NavItem = { href: string; label: string; isNew?: boolean };
+
+const NAV_ITEMS: NavItem[] = [
+  { href: '#home', label: 'Home' },
+  { href: '#about', label: 'About' },
+  { href: '#experience', label: 'Experience' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#certificate', label: 'Certificate' },
+  { href: '#contact', label: 'Contact' },
+  { href: '#blog', label: 'Blog' },
+];
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  const handleNavClick = (item: NavItem, device: 'desktop' | 'mobile') => {
+    posthog.capture('menu_click', {
+      menu: item.label,
+      href: item.href,
+      device,
+      is_new: !!item.isNew,
+    });
+    if (item.isNew) {
+      posthog.capture('menu_new_click', {
+        menu: item.label,
+        href: item.href,
+        device,
+      });
+    }
+    setIsMenuOpen(false);
+  };
 
   return (
     <motion.nav
@@ -17,15 +47,24 @@ const Header = () => {
         <Container>
           <div className="flex justify-between items-center py-4">
             <a href="#home" className="text-2xl font-bold text-gray-100">James F R Tambunan</a>
-            
+
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
-              <a href="#home" className="text-gray-300 hover:text-blue-400 transition-colors">Home</a>
-              <a href="#about" className="text-gray-300 hover:text-blue-400 transition-colors">About</a>
-              <a href="#experience" className="text-gray-300 hover:text-blue-400 transition-colors">Experience</a>
-              <a href="#projects" className="text-gray-300 hover:text-blue-400 transition-colors">Projects</a>
-              <a href="#certificate" className="text-gray-300 hover:text-blue-400 transition-colors">Certificate</a>
-              <a href="#contact" className="text-gray-300 hover:text-blue-400 transition-colors">Contact</a>
+              {NAV_ITEMS.map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => handleNavClick(item, 'desktop')}
+                  className="text-gray-300 hover:text-blue-400 transition-colors"
+                >
+                  {item.label}
+                  {item.isNew && (
+                    <span className="ml-1 text-[10px] font-semibold px-1.5 py-0.5 rounded bg-blue-500 text-white align-middle">
+                      NEW
+                    </span>
+                  )}
+                </a>
+              ))}
             </nav>
 
             {/* Social Links */}
@@ -42,7 +81,7 @@ const Header = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <button 
+            <button
               className="md:hidden text-gray-300"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
@@ -54,12 +93,21 @@ const Header = () => {
           {isMenuOpen && (
             <div className="md:hidden absolute top-full left-0 right-0 bg-gray-900 border-t border-gray-800">
               <nav className="flex flex-col p-4">
-                <a href="#home" className="py-2 text-gray-300 hover:text-blue-400">Home</a>
-                <a href="#about" className="py-2 text-gray-300 hover:text-blue-400">About</a>
-                <a href="#experience" className="py-2 text-gray-300 hover:text-blue-400">Experience</a>
-                <a href="#projects" className="py-2 text-gray-300 hover:text-blue-400">Projects</a>
-                <a href="#certificate" className="py-2 text-gray-300 hover:text-blue-400">Certificate</a>
-                <a href="#contact" className="py-2 text-gray-300 hover:text-blue-400">Contact</a>
+                {NAV_ITEMS.map((item) => (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => handleNavClick(item, 'mobile')}
+                    className="py-2 text-gray-300 hover:text-blue-400"
+                  >
+                    {item.label}
+                    {item.isNew && (
+                      <span className="ml-2 text-[10px] font-semibold px-1.5 py-0.5 rounded bg-blue-500 text-white align-middle">
+                        NEW
+                      </span>
+                    )}
+                  </a>
+                ))}
               </nav>
             </div>
           )}
