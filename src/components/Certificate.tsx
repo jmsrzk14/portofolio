@@ -8,9 +8,6 @@ interface CertificateData {
 
 const certificatesData: CertificateData[] = [
   {
-    image: '/images/hmt24.png'
-  },
-  {
     image: '/images/gemastik.png'
   },
   {
@@ -32,9 +29,6 @@ const certificatesData: CertificateData[] = [
   {
 
     image: '/images/Flutter.png'
-  },
-  {
-    image: '/images/absuh.jpg'
   },
   {
 

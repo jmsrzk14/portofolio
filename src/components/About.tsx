@@ -46,7 +46,7 @@ const About = () => {
               <p className="text-gray-300 text-lg w-[45vh] sm:w-[80vh] ">
                 I'm a software and IoT developer with designing and implementing scalable, high-performance systems. 
                 Experienced in JavaScript, TypeScript, PHP, Go, Dart, Java, Arduino, and Raspberry Pi, with strong 
-                proficiency in RESTful API and gRPC development, database optimization, and IoT architecture. Adept at building 
+                proficiency in RESTful API development, database optimization, and IoT architecture. Adept at building 
                 full-stack solutions using Laravel, Next.js, and Flutter, with a commitment to delivering secure, 
                 efficient, and impactful technology solutions that accelerate organizational growth.
               </p>

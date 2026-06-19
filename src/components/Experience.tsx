@@ -8,16 +8,6 @@ import {motion} from 'framer-motion';
 
 const experiences = [
   {
-    title: 'Software Engineer (Internship)',
-    company: 'PT. Dimensi Kreasi Nusantara',
-    period: 'Feb 2026 - Current',
-    description: [
-      'Built a front-end credit analytics system to determine the eligibility of potential borrowers.',
-      'Develop a Governance, Risk, and Compliance (GRC) system to monitor BPR compliance with applicable OJK regulations and risk management.'
-    ],
-    imageUrl: '/images/dots-bg.png',
-  },
-  {
     title: 'Lead Developer',
     company: 'PT. Rinel Tech Nusantara',
     period: 'Sep 2025 - Current',
@@ -105,12 +95,12 @@ const experiences = [
 ];
 
 const logos = [
-  { src: 'https://img.icons8.com/?size=100&id=20909&format=png&color=000000', label: 'HTML' },
-  { src: 'https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000', label: 'CSS' },
-  { src: 'https://img.icons8.com/?size=100&id=108784&format=png&color=000000', label: 'JavaScript' },
+  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png', label: 'HTML' },
+  { src: 'https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo-tumb-150x150.png', label: 'CSS' },
+  { src: 'https://kenantomfie.site/assets/javascript-BjiGfaT-.png', label: 'JavaScript' },
   { src: '/images/php.png', label: 'PHP' },
-  { src: 'https://img.icons8.com/?size=100&id=9nLaR5KFGjN0&format=png&color=000000', label: 'MySQL' },
-  { src: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg', label: 'Laravel' },
+  { src: 'https://kenantomfie.site/assets/mysql-D1fmG43W.png', label: 'MySQL' },
+  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png', label: 'Laravel' },
   { src: 'https://img.icons8.com/?size=48&id=7AFcZ2zirX6Y&format=png', label: 'Dart' },
   { src: 'https://img.icons8.com/?size=48&id=13679&format=png', label: 'Java' },
   { src: 'https://img.icons8.com/?size=48&id=l75OEUJkPAk4&format=png', label: 'Python' },
