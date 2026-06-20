@@ -8,13 +8,20 @@ import {motion} from 'framer-motion';
 
 const experiences = [
   {
+    title: 'Software Engineer Intern',
+    company: 'Dimensi Kreasi Nusantara',
+    period: 'Feb 2026 - Current',
+    description: [],
+    imageUrl: '/images/dots.png',
+  },
+  {
     title: 'Lead Developer',
     company: 'PT. Rinel Tech Nusantara',
     period: 'Sep 2025 - Current',
     description: ['Collaborated in developing real-world projects tailored to client needs',
                  'Led the web development team to deliver projects on target',
                  'Continuously explored and adopted emerging technologies to address industry demands.'],
-    imageUrl: '/images/rine.webp',
+    imageUrl: '/images/rinel.png',
   },
   {
     title: 'Web Developer (Internship)',
@@ -95,12 +102,10 @@ const experiences = [
 ];
 
 const logos = [
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png', label: 'HTML' },
-  { src: 'https://1000marcas.net/wp-content/uploads/2021/02/CSS-Logo-tumb-150x150.png', label: 'CSS' },
-  { src: 'https://kenantomfie.site/assets/javascript-BjiGfaT-.png', label: 'JavaScript' },
+  { src: 'https://img.icons8.com/?size=100&id=108784&format=png&color=000000', label: 'JavaScript' },
   { src: '/images/php.png', label: 'PHP' },
-  { src: 'https://kenantomfie.site/assets/mysql-D1fmG43W.png', label: 'MySQL' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png', label: 'Laravel' },
+  { src: 'https://img.icons8.com/?size=100&id=9nLaR5KFGjN0&format=png&color=000000', label: 'MySQL' },
+  { src: '/images/laravel.png', label: 'Laravel' },
   { src: 'https://img.icons8.com/?size=48&id=7AFcZ2zirX6Y&format=png', label: 'Dart' },
   { src: 'https://img.icons8.com/?size=48&id=13679&format=png', label: 'Java' },
   { src: 'https://img.icons8.com/?size=48&id=l75OEUJkPAk4&format=png', label: 'Python' },

@@ -33,7 +33,7 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
             <img
               src={imageUrl}
               alt={company}
-              className="w-12 h-12 md:w-16 md:h-16 object-cover"
+              className="w-20 h-20 md:w-24 md:h-24 object-cover"
             />
             <div>
               <h3 className="text-lg md:text-xl font-semibold text-gray-100">
