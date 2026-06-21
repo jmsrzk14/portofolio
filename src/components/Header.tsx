@@ -12,8 +12,8 @@ const NAV_ITEMS: NavItem[] = [
   { href: '#experience', label: 'Experience' },
   { href: '#projects', label: 'Projects' },
   { href: '#certificate', label: 'Certificate' },
+  { href: '#dashboard', label: 'Dashboard' },
   { href: '#contact', label: 'Contact' },
-  { href: '#blog', label: 'Blog' },
 ];
 
 const Header = () => {

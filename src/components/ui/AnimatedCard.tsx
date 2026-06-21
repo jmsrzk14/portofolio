@@ -97,7 +97,7 @@ const Projects: React.FC<ProjectsProps> = ({ onViewChange }) => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
             id="projects"
-            className="py-20 bg-gray-800"
+            className="py-12 bg-gray-950/80"
           >
             <div className="container mx-auto px-4">
               <motion.div

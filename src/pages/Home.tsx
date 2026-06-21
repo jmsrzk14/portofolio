@@ -1,15 +1,14 @@
 import { useState } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Experience from './components/Experience';
-import Certificate from './components/Certificate';
-import Dashboard from './components/Dashboard';
-import Projects from './components/ui/AnimatedCard';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Experience from '../components/Experience';
+import Certificate from '../components/Certificate';
+import Projects from '../components/ui/AnimatedCard';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
-function App() {
+export default function Home() {
   const [isDetailView, setIsDetailView] = useState(false);
 
   return (
@@ -21,12 +20,9 @@ function App() {
         {!isDetailView && <Experience />}
         <Projects onViewChange={setIsDetailView} />
         {!isDetailView && <Certificate />}
-        {!isDetailView && <Dashboard />}
         {!isDetailView && <Contact />}
       </main>
       {!isDetailView && <Footer />}
     </div>
   );
 }
-
-export default App;

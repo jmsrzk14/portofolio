@@ -69,73 +69,8 @@ const Certificate: React.FC = () => {
   };
 
   return (
-    <section id="certificate" className="relative py-20 bg-gray-900 overflow-hidden">
-      {/* Animated Neon Background */}
-      <div className="absolute inset-0 overflow-hidden">
-        {/* Neon Orbs */}
-        <motion.div
-          animate={{
-            scale: [1, 1.2, 1],
-            opacity: [0.3, 0.6, 0.3],
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut"
-          }}
-          className="absolute top-20 left-10 w-96 h-96 bg-gray-500 rounded-full blur-[120px]"
-        />
-        <motion.div
-          animate={{
-            scale: [1, 1.3, 1],
-            opacity: [0.2, 0.5, 0.2],
-          }}
-          transition={{
-            duration: 5,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: 1
-          }}
-          className="absolute top-40 right-20 w-[500px] h-[500px] bg-gray-900 rounded-full blur-[140px]"
-        />
-        <motion.div
-          animate={{
-            scale: [1, 1.4, 1],
-            opacity: [0.2, 0.4, 0.2],
-          }}
-          transition={{
-            duration: 6,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: 2
-          }}
-          className="absolute bottom-20 left-1/3 w-[600px] h-[600px] bg-gray-700 rounded-full blur-[150px]"
-        />
-        
-        {/* Neon Grid Lines */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="grid grid-cols-12 h-full">
-            {[...Array(12)].map((_, i) => (
-              <motion.div
-                key={i}
-                className="border-r border-blue-400"
-                animate={{
-                  opacity: [0.1, 0.3, 0.1],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  delay: i * 0.2
-                }}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Content */}
+    <section id="certificate" className="relative py-20 bg-gray-950/80 overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}

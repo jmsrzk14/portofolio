@@ -1,4 +1,6 @@
-export { };
+/// <reference types="vite/client" />
+
+export {};
 
 declare module '*.glb';
 declare module '*.png';
@@ -16,8 +18,3 @@ declare global {
     }
   }
 }
-
-- src/vite-env.d.ts
-/// <reference types="vite/client" />
-declare module '*.glb';
-declare module '*.png';

@@ -127,7 +127,7 @@ const logos = [
 
 const Experience = () => {
   return (
-    <Section id="experience" className="bg-gray-900">
+    <Section id="experience" className="bg-gray-950/80">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: -30 }}

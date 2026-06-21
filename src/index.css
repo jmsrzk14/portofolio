@@ -15,3 +15,17 @@
   background-size: 300%;
   animation: border-animation 8s linear infinite;
 }
+
+.recharts-wrapper,
+.recharts-surface {
+  outline: none !important;
+  border: none !important;
+}
+
+.recharts-wrapper:focus,
+.recharts-surface:focus,
+.recharts-wrapper:active,
+.recharts-surface:active {
+  outline: none !important;
+  border: none !important;
+}
