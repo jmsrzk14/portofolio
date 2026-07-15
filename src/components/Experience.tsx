@@ -11,7 +11,8 @@ const experiences = [
     title: 'Software Engineer Intern',
     company: 'Dimensi Kreasi Nusantara',
     period: 'Feb 2026 - Current',
-    description: [],
+    description: ['Built a front-end credit analytics system to determine the eligibility of potential borrowers.',
+                 'Currently built a Governance Risk Compliance (GRC) system to monitor company policies and activities.'],
     imageUrl: '/images/dots.png',
   },
   {

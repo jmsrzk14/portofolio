@@ -8,6 +8,9 @@ interface CertificateData {
 
 const certificatesData: CertificateData[] = [
   {
+    image: '/images/bem.png'
+  },
+  {
     image: '/images/gemastik.png'
   },
   {
