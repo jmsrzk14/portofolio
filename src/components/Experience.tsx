@@ -11,10 +11,11 @@ const experiences = [
     title: 'Enterprise Software Engineer',
     company: 'PT. Equnix Business Solutions',
     period: 'Aug 2026 - Current',
-    description: ['Built a front-end credit analytics system to determine the eligibility of potential borrowers.',
-                 'Currently built a Governance Risk Compliance (GRC) system to monitor company policies and activities.'],
+    description: [],
     imageUrl: '/images/equnix.png',
   },
+  // ['Built a front-end credit analytics system to determine the eligibility of potential borrowers.',
+  //                'Currently built a Governance Risk Compliance (GRC) system to monitor company policies and activities.'],
   {
     title: 'Software Engineer Intern',
     company: 'Dimensi Kreasi Nusantara',
