@@ -8,9 +8,17 @@ import {motion} from 'framer-motion';
 
 const experiences = [
   {
+    title: 'Enterprise Software Engineer',
+    company: 'PT. Equnix Business Solutions',
+    period: 'Aug 2026 - Current',
+    description: ['Built a front-end credit analytics system to determine the eligibility of potential borrowers.',
+                 'Currently built a Governance Risk Compliance (GRC) system to monitor company policies and activities.'],
+    imageUrl: '/images/equnix.png',
+  },
+  {
     title: 'Software Engineer Intern',
     company: 'Dimensi Kreasi Nusantara',
-    period: 'Feb 2026 - Current',
+    period: 'Feb 2026 - Jul 2026',
     description: ['Built a front-end credit analytics system to determine the eligibility of potential borrowers.',
                  'Currently built a Governance Risk Compliance (GRC) system to monitor company policies and activities.'],
     imageUrl: '/images/dots.png',
@@ -63,7 +71,7 @@ const experiences = [
   {
     title: 'Head of education division',
     company: 'HIMATIF Institute Technology Del',
-    period: 'Nov 2025 - Current',
+    period: 'Nov 2025 - Sep 2026',
     description: ['Conducting tutorials to juniors every 3 weeks 2 times, increasing understanding of the course by 25-30%', 
                  'Responsible for providing training about the world of IT to members'],
     imageUrl: '/images/himatif.jpeg',
@@ -71,7 +79,7 @@ const experiences = [
   {
     title: 'Head of Research and Technology Division',
     company: 'Del Robotic Club Institute Technology Del',
-    period: 'Nov 2025 - Current',
+    period: 'Nov 2025 - Sep 2026',
     description: ['Exploring trending technologies in the world of robotics', 
                  'Responsible for providing robotics training to new members'],
     imageUrl: '/images/DRC.png',
@@ -124,6 +132,8 @@ const logos = [
   { src: '/images/next.png', label: 'Next JS' },
   { src: 'https://img.icons8.com/?size=100&id=JRnxU7ZWP4mi&format=png&color=000000', label: 'PostgreSQL' },
   { src: 'https://img.icons8.com/?size=100&id=Wln8Z3PcXanx&format=png&color=000000', label: 'Docker' },
+  { src: 'https://img.icons8.com/?size=100&id=eETV3RNHVrWA&format=png&color=000000', label: 'Vue JS'},
+  { src: 'https://img.icons8.com/?size=100&id=40670&format=png&color=000000', label: 'C'},
 ];
 
 const Experience = () => {

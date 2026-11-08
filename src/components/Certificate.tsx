@@ -8,57 +8,57 @@ interface CertificateData {
 
 const certificatesData: CertificateData[] = [
   {
+    image : '/images/asdos.png'
+  },
+  {
+    image : '/images/divpen25.png'
+  },
+  {
+    image: '/images/magangdkn.jpg'
+  },
+  {
+    image : '/images/divpen24.png'
+  },
+  {
     image: '/images/bem.png'
   },
   {
     image: '/images/gemastik.png'
   },
   {
-
     image: '/images/ibm.png'
   },
   {
-
     image: '/images/samsung.png'
   },
   {
-
     image: '/images/SIC6.png'
   },
   {
-
     image: '/images/AI.png'
   },
   {
-
     image: '/images/Flutter.png'
   },
   {
-
     image: '/images/asmat.png'
   },
   {
-
     image: '/images/PCA.jpg'
   },
   {
-
     image: '/images/Kader25.png'
   },
   {
-
     image: '/images/FindIT.png'
   },
   {
-
     image: '/images/backend.png'
   },
   {
-
     image: '/images/cloud.png'
   },
   {
-
     image: '/images/frontend.png'
   },
 ];

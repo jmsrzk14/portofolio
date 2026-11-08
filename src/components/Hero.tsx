@@ -42,9 +42,9 @@ const Hero = () => {
                   <AnimatedText words={words} interval={3000} />
                 </span>
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              {/* <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="/images/James Frans Rizky Tambunan - CV.pdf"
+                  href="/images/James Frans Rizky Tambunan-CV.pdf"
                   download
                   className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
                 >
@@ -55,7 +55,7 @@ const Hero = () => {
                     className="ml-3 w-7 h-7" 
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </motion.div>

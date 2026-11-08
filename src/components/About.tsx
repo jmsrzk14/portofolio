@@ -43,12 +43,12 @@ const About = () => {
               viewport={{ once: true }}
             >
             <div className="space-y-6">
-              <p className="text-gray-300 text-lg w-[45vh] sm:w-[80vh] ">
-                I'm a software and IoT developer with designing and implementing scalable, high-performance systems. 
-                Experienced in JavaScript, TypeScript, PHP, Go, Dart, Java, Arduino, and Raspberry Pi, with strong 
-                proficiency in RESTful API development, database optimization, and IoT architecture. Adept at building 
-                full-stack solutions using Laravel, Next.js, and Flutter, with a commitment to delivering secure, 
-                efficient, and impactful technology solutions that accelerate organizational growth.
+              <p className="text-gray-300 text-lg w-full sm:w-[92vh] ">
+                Software Engineer experienced in designing, developing, and maintaining high-performance, large-scale 
+                (enterprise-grade) web applications. Possesses deep expertise in end-to-end development, ranging from 
+                responsive user interface (frontend) design to robust, secure, and scalable backend architecture. 
+                Proficient in applying clean code principles, database optimization, API integration, and CI/CD practices 
+                to ensure an efficient software delivery lifecycle.
               </p>
             
               <div className="space-y-8 mt-8">
